@@ -363,7 +363,90 @@ footer h1 {
     padding-top: 10px;
 }
 
+/* OVERLAYER STARTS HERE */
+@media only screen and (max-width: 768px) {
+    .menu_trigger {
+        background: url('../images/hamburger-icon.svg') no-repeat center / cover;
+        width: 35px;
+        height: 35px;
+        display: block;
+        z-index: 10;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
 
+    .main_overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.72);
+        z-index: 6;
+        display: none;
+    }
+
+    .main_overlay:after {
+        background: url('../images/close-icon.svg') no-repeat center / cover;
+        width: 35px;
+        height: 35px;
+        display: block;
+        content: "";
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        z-index: 20;
+      }
+
+      .menu {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: #131313;
+        width: 100%;
+        max-width: 300px;
+        z-index: 30;
+        transform: translate3d(-100%, 0, 0);
+        transition: 0.3s;
+      }
+
+      nav.nav_wrapper {
+        background: transparent;
+      }
+
+      nav.nav_wrapper ul li {
+        display: block;
+        margin-top: 20px;
+        padding: 0;
+        padding-bottom: 20px;
+      }
+
+      nav.nav-wrapper ul li a {
+        font-size: 18px;
+        line-height: 23px;
+      }
+
+      nav.nav-wrapper ul li a:hover {
+        border-color: transparent;
+      }
+
+      body.menu-is-active .menu {
+        background: rgba(0,0,0,0.8);
+        transform: translate3d(0, 0, 0);
+        display: block;
+        padding: 0 15px;
+      }
+
+      body.menu-is-active .main_overlay {
+        display: block;
+      }
+
+      body.menu-is-active .menu_trigger {
+        display: none;
+      }
+}
 
 
 
