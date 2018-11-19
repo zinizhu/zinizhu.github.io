@@ -262,6 +262,7 @@ body.scroll header.sticky {
     height: 100vh;
 }
 
+
 ul#scene li.name {
     text-align: center;
     font-size: 10vw;
@@ -291,7 +292,7 @@ ul#scene li.address {
 
 
 ul#scene {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 /* SELF-INTRO PART STARTS HERE */

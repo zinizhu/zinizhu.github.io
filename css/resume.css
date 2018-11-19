@@ -280,14 +280,13 @@ header {
 
 .education div .school {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 35px;
 }
 
 .education div .gpa {
     float: right;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
 }
 
 .education div .major {
@@ -313,6 +312,7 @@ header {
 .professional_experience h3 {
     font-size: 25px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .professional_experience ul {
@@ -333,11 +333,17 @@ header {
     font-size: 25px;
     margin-top: 25px;
     margin-bottom: 18px;
+    font-weight: 700;
 }
 
 .academy li {
     font-size: 18px;
     line-height: 22px;
+}
+
+.proj_4 h3 {
+    font-size: 15px;
+    font-weight: 600;
 }
 
 /* Skills Starts Here */
