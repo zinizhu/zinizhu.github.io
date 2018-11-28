@@ -237,8 +237,9 @@ header {
     border-bottom: 1px solid white;
 }
 
+
 /* Resume Header */
-.resume {
+.project {
   position: relative;
   display: block;
   margin: 70px auto;
@@ -248,141 +249,60 @@ header {
   line-height: 40px;
 }
 
-.resume::after {
+.project::after {
     display: block;
     height: 2px;
     background-color: #000000;
     content: "";
-    width: 150px;
+    width: 120px;
     margin: 20px auto 0 auto;
 }
 
 
-/* Education Starts Here */
 
-.sec {
-    margin: 60px 100px;
-}
-
-.sec h2 {
-    display: block;
-    font-size: 35px;
-    font-weight: 500;
-    padding-bottom: 5px; 
-    border-bottom: 2px solid black;
+.proj {
+    margin:30px 150px;
+    background-color: #EFEFEB;
+    border-radius: 50px;
 }
 
 
-.education div {
-    margin-top: 25px;
+.proj table {
+    display: table-row-group;
+    vertical-align: middle;
 }
 
-
-.education div .school {
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 35px;
+.proj tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
 
-.education div .gpa {
-    float: right;
+.proj td, th {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 20px;
+    line-height:125%;
 }
 
-.education div .major {
-    font-size: 20px;
-    margin-top: 25px;
-}
-
-
-
-/* Professional Experience Starts Here */
-
-
-.first_proj {
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-
-.time {
-    float: right;
-}
-
-.professional_experience h3 {
-    font-size: 25px;
-    margin-bottom: 5px;
+.proj td h3 {
     font-weight: bold;
+    font-size: 2.5vw;
+    text-align: left;
 }
 
-.professional_experience ul {
-    display: block;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 22px;
+#link {
+    padding-left: 40px;
 }
 
-.professional_experience li {
-    font-size: 18px;
-    line-height: 22px;
+#link-title {
+    font-size: 2.2vw;
 }
 
 
-/* Academy Starts Here */
-.academy ul {
-    font-size: 25px;
-    margin-top: 25px;
-    margin-bottom: 18px;
-    font-weight: 700;
-}
-
-.academy li {
-    font-size: 18px;
-    line-height: 22px;
-}
-
-.proj_4 h3 {
-    font-size: 15px;
-    font-weight: 600;
-}
-
-/* Skills Starts Here */
-.skills li {
-    margin-top: 15px;
-    font-size: 20px;
-    line-height: 25px;
-}
-
-.skills li span {
-    font-weight: bold;
-}
-
-/* Back Button Starts Here */
-.back a{
-    margin: 0 auto;
-    display: block;
-    justify-content: center;
-    background: transparent;
-    color: black;
-    text-decoration: none;
-    transition: 0.3s;
-    padding: 10px 10px;
-    border: 1px solid black;
-    text-align: center;
-}
-
-/* Download Button Starts Here */
-.download {
-    position: relative;
-    margin-left: 80%;
-    margin-bottom: 20px;
-}
-
-.download button {
-    width: 120px;
-    height: 50px;
-    font-size: 15px;
-}
 
 
 

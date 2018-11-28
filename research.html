@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--<meta property="og:title" content="" />-->
+    <!--<meta property="og:url" content="" />-->
+    <!--<meta property="og:image" content="" />-->
+    <!--<meta property="og:site_name" content="" />-->
+    <!--<meta property="og:description" content="" />-->
+    <title>Start Project</title>
+    <title>Personal Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/research.css">
+    <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <header id="header">
+            <nav class="nav_wrapper">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="#">Research</a></li>
+                </ul>
+            </nav>
+        <div class="menu_trigger js_menu_trigger"></div>
+    </header>
+
+    <h2 class="research">Research</h2>
+
+    <div class="template">
+        <div class="pic1">
+            <img src="images/research1.png">
+        </div>
+        <div class="part">
+            <h3>
+                Semantic-Preserving Multiple Artists' Style Transfer
+            </h3>
+            <p>
+                Though signiﬁcant progress has been made in artistic image style transfer, semantic information is usually difficult to preserve during style transfer by most existing methods, especially when multiple artists’ styles are required transfer to a single target image. To circumvent this issue, we propose a Semantic-Preserving Multi-Artists’ Style Transfer framework. On one hand, we develop a multi-condition single-generator generative structure which can perform multi-artists’ style transfer. On the other hand, we introduce a feature-level soft-mask skip-connection from encoder to decoder, which endows the network with the ability of adjustable semantic consistency among various styles. Extensive experimental results demonstrate the feasibility and effectiveness of our approach in multi-artists’ style transfer, which also well preserves the semantic information.
+
+            </p>
+        </div>
+
+
+        <div class="pic2">
+            <img src="images/research2.png">
+        </div>
+        <div class="part">
+            <h3>
+                Modeling Point Clouds with Self-Attention and Gumbel Subset Sampling
+            </h3>
+            <p>
+                Geometric deep learning is increasingly important thanks to the popularity of 3D sensors. Inspired by the recent advances in NLP domain, the self-attention transformer is introduced to consume the point clouds. We develop Point Attention Transformers (PATs), using a parameter-efficient Group Shuffle Attention (GSA) to replace the costly Multi-Head Attention. We demonstrate its ability to process size-varying inputs, and prove its permutation equivariance. Besides, prior work uses heuristics dependence on the input data (e.g., Furthest Point Sampling) to hierarchically select subsets of input points. Thereby, we for the first time propose an end-to-end learnable and task agnostic sampling operation, named Gumbel Subset Sampling (GSS), to select a representative subset of input points. Equipped with Gumbel-Softmax, it produces a ”soft” continuous subset in training phase, and a ”hard” discrete subset in test phase. By selecting representative subsets in a hierarchical fashion, the networks learn a stronger representation of the input sets with lower computation cost. Experiments on classification and segmentation benchmarks show the effectiveness and efficiency of our methods. Furthermore, we propose a novel application, to process event camera stream as point clouds, and achieve a state-of-theart performance on DVS128 Gesture Dataset.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
