@@ -256,7 +256,7 @@ body.scroll header.sticky {
 /* NAVIGATION MAIN PAGE */
 
 .cover_main {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/gros.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -265,28 +265,28 @@ body.scroll header.sticky {
 
 ul#scene li.name {
     text-align: center;
-    font-size: 10vw;
+    font-size: 9vw;
     color: white;
     margin-bottom: 100px;
 }
 
 ul#scene li.phone {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     margin-bottom: 20px;
 }
 
 ul#scene li.email {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     margin-bottom: 20px;
 }
 
 ul#scene li.address {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
 }
 
@@ -306,21 +306,22 @@ ul#scene {
 .selfie {
     float: left;
     padding: 10px 10px;
-    border-color: black;
+    border-color: #c1b324;
     border-style: solid;
     border-width: 2px;
-    margin-left: 50px; 
+    margin-left: 70px; 
 }
 
 .about_me {
     padding: 30px 10px;
-    margin-left: 400px;
-    margin-bottom: 100px
+    margin-left: 450px;
+    margin-right: 70px;
+    margin-bottom: 100px;
 }
 
 .about_me p {
-    font-size: 1.5vw;
-    line-height: 120%;
+    font-size: 1.7vw;
+    line-height: 130%;
     text-align: justify;
 }
 
