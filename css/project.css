@@ -294,8 +294,23 @@ header {
     text-align: left;
 }
 
+#magic img {
+    width: 280px;
+    height: 200px;
+}
+
 #link {
     padding-left: 40px;
+}
+
+#link img {
+    width: 290px;
+    height: 200px;
+}
+
+#alpha img {
+    width: 290px;
+    height: 200px;
 }
 
 #link-title {
