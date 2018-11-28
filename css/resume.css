@@ -388,6 +388,78 @@ header {
 
 
 
+/* new part */
+.bg {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bullet {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 5px; 
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 2.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #E2E2B6;
+}
+
+/* Education Starts Here */
+
+.education {
+    margin: 15px 20px;
+
+}
+
+.education #logo {
+    padding:30px 80px 30px 30px;
+}
+
+.education img {
+    width: 150px;
+    height: 150px;
+}
+
+.education #school {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+/* Selected Projects Starts Here */
+
+.projects {
+    margin: 5px 20px;
+
+}
+
+.projects li {
+    font-size: 20px;
+    line-height: 180%
+
+}
+
+.projects h2 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
 
 
 
