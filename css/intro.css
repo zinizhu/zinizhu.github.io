@@ -430,7 +430,7 @@ hr {
     display: table-cell;
     vertical-align: middle;
     text-align: left;
-    font-size: 22px;
+    font-size: 1.7vw;
     line-height: 150%;
 }
 
@@ -446,7 +446,7 @@ hr {
 }
 
 .projects h3 {
-    font-size: 25px;
+    font-size: 1.8vw;
     line-height: 100%;
     margin-left: 20px;
     margin-bottom: 5px;
@@ -454,7 +454,7 @@ hr {
 
 .projects li {
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 1.25vw;
 }
 
 .time {
@@ -477,7 +477,7 @@ hr {
     display: table-cell;
     vertical-align: middle;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -491,7 +491,7 @@ hr {
     border-right: solid black 0.1em; 
     padding-left:20px;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 1.3vw;
 
 }
 
@@ -518,11 +518,11 @@ hr {
     vertical-align: middle;
     text-align: right;
     padding-left: 150px;
-    font-size: 20px;
+
 }
 
 .honors li {
-    font-size: 20px;
+    font-size: 1.3vw;
     line-height: 120%
 }
 
