@@ -187,6 +187,15 @@ ol li {
     margin-bottom: 10px;
 }
 
+a:link {
+    color:blue;
+}    
+a:visited {
+    background:#FFFF85;
+    color:blue;
+}
+
+
 
 /*HELPER CLASS END*/
 

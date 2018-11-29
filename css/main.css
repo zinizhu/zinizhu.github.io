@@ -298,7 +298,7 @@ ul#scene {
 /* SELF-INTRO PART STARTS HERE */
 
 .self_intro {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -310,6 +310,7 @@ ul#scene {
     border-style: solid;
     border-width: 2px;
     margin-left: 70px; 
+    margin-top: 50px;
 }
 
 .about_me {
@@ -320,7 +321,7 @@ ul#scene {
 }
 
 .about_me p {
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     line-height: 130%;
     text-align: justify;
 }

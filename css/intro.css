@@ -179,7 +179,7 @@ ul li,
 ol li {
     font-size: 16px;
     line-height: 23px;
-    margin: 0 0 20px 0;
+    margin: 0 0 5px 0;
 }
 
 ul li,
@@ -346,12 +346,7 @@ header {
     font-weight: 600;
 }
 
-/* Skills Starts Here */
-.skills li {
-    margin-top: 15px;
-    font-size: 20px;
-    line-height: 25px;
-}
+
 
 .skills li span {
     font-weight: bold;
@@ -390,8 +385,8 @@ header {
 
 /* new part */
 .bg {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 
 .bullet {
@@ -403,15 +398,16 @@ header {
 
 hr {
     display: block;
+    margin: 0px 20px;
     unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 2.5em;
+    margin-block-start: 0.25em;
+    margin-block-end: 1.25em;
     margin-inline-start: auto;
     margin-inline-end: auto;
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
-    border-color: #E2E2B6;
+    border-color: #F8F9F6;
 }
 
 /* Education Starts Here */
@@ -434,26 +430,151 @@ hr {
     display: table-cell;
     vertical-align: middle;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 150%;
 }
 
 /* Selected Projects Starts Here */
 
 .projects {
-    margin: 5px 20px;
+    margin: 25px 20px;
 
 }
 
-.projects li {
-    font-size: 20px;
-    line-height: 180%
+.projects div {
+    margin-bottom: 20px;
+}
 
+.projects h3 {
+    font-size: 25px;
+    line-height: 100%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.projects li {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.time {
+    display: block;
+    float: right;
 }
 
 .projects h2 {
     margin-bottom: 10px;
 }
+
+
+/* Skills Part Starts Here */
+.skills {
+    margin: 35px 20px;
+}
+
+
+.item {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.details {
+    vertical-align: middle;
+}
+
+.skills li {
+    display: inline-block;
+    border-right: solid black 0.1em; 
+    padding-left:20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+
+.details {
+    padding: 20px 40px;
+}
+
+
+/* Honors Starts Here */
+.honors {
+    margin: 35px 20px;
+}
+
+.honors h2 {
+    margin-bottom: 20px;
+}
+
+.honors td  {
+    padding-bottom: 5px;
+}
+
+.year {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding-left: 150px;
+    font-size: 20px;
+}
+
+.honors li {
+    font-size: 20px;
+    line-height: 120%
+}
+
+/*  Activites Starts Here*/
+.activities {
+    margin: 35px 20px;
+    
+}
+
+.activity-1 {
+    margin-top: 30px;
+    background-color: #EFEFEB;
+    border-radius: 25px;
+}
+
+
+
+.activity-img {
+    margin: 10px 10px;
+    padding: 30px 50px;
+}
+
+.activity-disc {
+    margin: 10px 10px;
+    padding: 30px 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
