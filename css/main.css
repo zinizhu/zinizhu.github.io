@@ -256,7 +256,7 @@ body.scroll header.sticky {
 /* NAVIGATION MAIN PAGE */
 
 .cover_main {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/gros.jpg');
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/gros-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
