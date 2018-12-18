@@ -265,6 +265,8 @@ header {
 }
 
 .sec h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3vw;
     display: block;
     font-size: 35px;
     font-weight: 500;
@@ -323,8 +325,9 @@ header {
 }
 
 .professional_experience li {
+    font-size: 1.3vw;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
 }
 
 
@@ -455,6 +458,7 @@ hr {
 .projects li {
     margin-left: 20px;
     font-size: 1.25vw;
+    line-height: 23px;
 }
 
 .time {
@@ -544,8 +548,8 @@ hr {
     padding: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 1.2vw;
-    line-height:125%;
+    font-size: 1.3vw;
+    line-height:140%;
 }
 
 
